@@ -1,0 +1,35 @@
+#task-list .list-group-item[data-priority="high"] {
+    background-color: #ffdddd;
+}
+
+#task-list .list-group-item[data-priority="medium"] {
+    background-color: #fff7cc;
+}
+
+#task-list .list-group-item[data-priority="low"] {
+    background-color: #d9ead3;
+}
+
+/* Optional: Style completed tasks differently */
+#task-list .list-group-item.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+/* Optional: Style the delete button */
+#task-list .delete-btn {
+    margin-left: 10px;
+}
+
+/* Optional: Responsive Design */
+@media (max-width: 576px) {
+    #task-form {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 577px) {
+    #task-list {
+        margin-top: 20px;
+    }
+}
